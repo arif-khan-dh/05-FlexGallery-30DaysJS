@@ -8,8 +8,8 @@
 
 :root {
     --tr: 350ms;
-    --tr-effect: cubic-bezier(0.61,-0.19, 0.7,-0.11);
-    // --tr-effect: cubic-bezier(0,.72,.56,1.08);
+    // --tr-effect: cubic-bezier(0.61,-0.19, 0.7,-0.11);
+    --tr-effect: cubic-bezier(0,.72,.56,1.08);
 }
 
 html {
@@ -63,8 +63,7 @@ body {
         transform: translateY(100%);
     }
 
-    // &:hover {
-    &.active {
+    &:hover {
         flex-basis: 400%;
 
         p:not(:nth-child(2)) {
